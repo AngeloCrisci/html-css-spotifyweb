@@ -15,6 +15,7 @@ body {
 
 footer {
     height: 80px;
+    background-color: #282828;
 }
 
 main {
@@ -23,24 +24,53 @@ main {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.evidence a {
+    color: #6A6D72;
+    font-weight: 600;
+}
+
+/* macro layout */
 .header {
     height: 100px;
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
+    background-color: #080B12;
 }
 
 .side-bar {
-    flex-basis: 200px;
+    flex-basis: 50px;
     flex-shrink: 0;
+    background-color: #000000;
 }
 
 .main-content {
     flex-grow: 1;
     position: relative;
     overflow: auto;
+    background-color: #141922;
 }
+
+/* Micro layout */
+
+.content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+
 
 /* Utils */
 
@@ -49,6 +79,20 @@ main {
     margin: 0 auto;
 }
 
-.border {
-    border: 1px black solid;
+.btn {
+    padding: 10px 15px;
+}
+
+/* Layout */ 
+
+.m-right {
+    margin-right: 20px;
+}
+
+.m-btm {
+margin-bottom: 20px;
+}
+
+.pdg {
+    padding: 20px;
 }
