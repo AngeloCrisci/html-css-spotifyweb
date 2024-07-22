@@ -57,10 +57,47 @@ h6 {
     color: #6A6D72;
 }
 
+h5 {
+    color: white;
+    font-size: 18px;
+}
+
 .evidence a {
     color: #6A6D72;
     font-weight: 600;
 }
+
+a {
+    color: #6A6D72;
+}
+
+.btn a {
+    color: white;
+}
+
+.logos a {
+    color: white;
+}
+
+.logos li {
+    margin-bottom: 5px;
+    padding: 5px 5px;
+}
+
+.side-list li {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 15px;
+    color: #6A6D72;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
 
 /* macro layout */
 .header {
@@ -78,7 +115,8 @@ h6 {
 .side-bar {
     flex-basis: 50px;
     flex-shrink: 0;
-    background-color: #000000;
+    background-color: #000000;    
+    padding: 10px 5px;
 }
 
 .main-content {
@@ -109,6 +147,7 @@ h6 {
     flex-basis: calc(100% / 2 - 1rem);
 }
 
+
 /* Utils */
 
 .container {
@@ -135,6 +174,23 @@ h6 {
 
 .hidden {
     display: none;
+}
+
+
+
+.fa-plus {
+    border: 1px #6A6D72 solid;
+    background-color: #6A6D72;
+    padding: 8px 10px;
+    font-size: 30px;
+}
+
+.side-list span {
+    margin-left: 10px;
+}
+
+.inline {
+    display: inline-block;
 }
 
 /* Layout */ 

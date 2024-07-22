@@ -2,6 +2,23 @@
     .side-bar {
         flex-basis: 250px;
     }
+
+    .first-logo {
+        display: none;
+    }
+
+    .side-bar {
+        padding: 15px 15px;
+    }
+
+    .hidden {
+        display: inline-block;
+    }
+
+    .small-logo {
+        max-width: 15%;
+        display: inline-block;
+    }
 }
 
 @media  screen and (min-width: 878px) {
