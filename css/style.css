@@ -33,15 +33,13 @@ main {
 
 .side-bar {
     flex-basis: 200px;
-    position: sticky;
-    left: 0;
-    top: 0;
-    bottom: 0;
+    flex-shrink: 0;
 }
 
 .main-content {
-    flex-basis: 100%;
+    flex-grow: 1;
     position: relative;
+    overflow: auto;
 }
 
 /* Utils */
@@ -53,8 +51,4 @@ main {
 
 .border {
     border: 1px black solid;
-}
-
-.side-bar {
-    
 }
