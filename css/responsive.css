@@ -15,10 +15,15 @@
         display: inline-block;
     }
 
-    .small-logo {
+    .small-logo,.f-small-logo {
         max-width: 15%;
         display: inline-block;
     }
+
+    .logos li,.side-footer {
+        text-align: start;
+    }
+
 }
 
 @media  screen and (min-width: 878px) {

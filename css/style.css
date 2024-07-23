@@ -16,6 +16,9 @@ body {
 footer {
     height: 80px;
     background-color: #282828;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
 }
 
 main {
@@ -82,6 +85,7 @@ a {
 .logos li {
     margin-bottom: 5px;
     padding: 5px 5px;
+    text-align: center;
 }
 
 .side-list li {
@@ -117,6 +121,8 @@ span {
     flex-shrink: 0;
     background-color: #000000;    
     padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-content {
@@ -147,12 +153,61 @@ span {
     flex-basis: calc(100% / 2 - 1rem);
 }
 
+.side-header {
+    flex-grow: 1;
+}
+
+.side-main {
+    flex-grow: 1;
+}
+
+.side-footer {
+    height: 80px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.song {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.volume {
+    flex-basis: 30%;
+}
+
+.player-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.player-logos li {
+    flex-basis: calc(100% / 5);
+}
 
 /* Utils */
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.small-logo {
+    display: inline-block;
+}
+
+.f-small-logo {
+    display: inline-block;
+    max-width: 60%;
+    text-align: center;
 }
 
 .btn {
@@ -176,7 +231,18 @@ span {
     display: none;
 }
 
+.img-song {
+    width: 60%;
+    display: block;
+}
 
+.text-song {
+  
+}
+
+.text-song span {
+    font-size: 15px;
+}
 
 .fa-plus {
     border: 1px #6A6D72 solid;
@@ -191,6 +257,10 @@ span {
 
 .inline {
     display: inline-block;
+}
+
+.white-sp {
+    color: white;
 }
 
 /* Layout */ 
